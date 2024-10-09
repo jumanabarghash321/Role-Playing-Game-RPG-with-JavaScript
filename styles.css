@@ -1,0 +1,67 @@
+body {
+    background-color: #0a0a23;
+    /* Dark background */
+}
+
+#text {
+    background-color: #0a0a23;
+    /* Same as body */
+    color: #ffffff;
+    /* White text */
+    padding: 10px;
+    /* Padding around text */
+}
+
+#game {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: #ffffff;
+    color: #ffffff;
+    /* This will be overridden */
+    margin: 30px auto 0px;
+    padding: 10px;
+    /* Inner padding */
+    /* More padding? */
+}
+
+#controls,
+
+/* Controls section */
+
+#stats {
+    border: 1px solid #0a0a23;
+    /* Border color */
+    padding: 5px;
+    color: #0a0a23;
+    /* Text color for stats */
+}
+
+#monsterStats {
+    display: none;
+    /* Hidden by default */
+    border: 1px solid #0a0a23;
+    padding: 5px;
+    color: #ffffff;
+    /* White text for monster stats */
+    background-color: #c70d0d;
+    /* Red background for monster */
+    /* Why is this hidden? */
+}
+
+.stat {
+    padding-right: 10px;
+    /* Space between stats */
+    /* This is a stat class */
+}
+
+button {
+    cursor: pointer;
+    color: #0a0a23;
+    background-color: #feac32;
+    /* Button background */
+    background-image: linear-gradient(#fecc4c, #ffac33);
+    /* Gradient */
+    border: 3px solid #feac32;
+    /* Button border styling */
+    /* Add hover effect? */
+}
